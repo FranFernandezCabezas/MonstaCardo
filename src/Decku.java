@@ -5,8 +5,8 @@ public class Decku {
 	private int numRemainingCards;
 	
 	public Decku() {
-		cardos = new Cardo[20]; //He modificado la cantida de cartas para facilitar el testeo de la clase.
-		numRemainingCards = 20;
+		cardos = new Cardo[50];
+		numRemainingCards = 50;
 		
 		
 	}
