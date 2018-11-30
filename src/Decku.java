@@ -11,6 +11,12 @@ public class Decku {
 		
 	}
 	
+	public Decku(int numCards) {
+		
+		cardos = new Cardo[numCards];
+		numRemainingCards = numCards;
+	}
+	
 	public void shuffle() {
 		Cardo temp;
 		int n1, n2;
